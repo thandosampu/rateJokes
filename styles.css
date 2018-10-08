@@ -1,0 +1,94 @@
+#body_bg
+{ 
+background-color:#9F81F7; 
+}
+
+#login-form{ 
+
+background-color:#A9D0F5; 
+border: 3 px solid; 
+padding:9px 9px;
+ width:300px; 
+ border-radius:5px; 
+}
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    line-height: 150%;
+    text-shadow: 0 2px 2px #b6701e;
+  }
+  
+  section {
+    color: #fff;
+    text-align: center;
+  }
+  
+  div {
+    height: 100%;
+  }
+  
+  article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+    margin: 0 0 0.75rem 0;
+  }
+  
+  /* Pattern styles */
+  .container {
+    display: table;
+    width: 100%;
+  }
+  
+  .left-half {
+    background-color: #A9D0F5;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+  }
+  
+  .right-half {
+    background-color: #C1AEFA;
+    position: absolute;
+    right: 0px;
+    width: 50%;
+  }
+  h1{
+      text-align: center;
+  }
+  a{
+    color: brown;
+    text-decoration: none;
+  }
+  #likeicon
+    {
+      max-width:4%;
+      max-height:4%;
+    }
+    #unlikeicon
+    {
+      max-width:5%;
+      max-height:5%;
+    }
+    #like{
+      width: 40px;
+    }
+    #unlike{
+      width:40px;
+    }
+    #home{
+      width:50px;
+    }
+.authenticate{
+  margin: 180px 400px;
+}
